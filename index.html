@@ -1,0 +1,30 @@
+<html>
+	<head>
+	</head>
+	<body>
+		<form id="form" method="post">
+			<div class="hero">
+				<label for="hero-attack">Attack:</label>
+				<input type="number" id="hero-attack" name="hero-attack" required>
+				<label for="hero-defense">Defense:</label>
+				<input type="number" id="hero-defense" name="hero-defense" required>
+				<label for="hero-health">Health:</label>
+				<input type="number" id="hero-health" name="hero-health" required>
+			</div>
+			<div class="enemy">
+				<label for="enemy-attack">Attack:</label>
+				<input type="number" id="enemy-attack" name="enemy-attack" required>
+				<label for="enemy-defense">Defense:</label>
+				<input type="number" id="enemy-defense" name="enemy-defense" required>
+				<label for="enemy-health">Health:</label>
+				<input type="number" id="enemy-health" name="enemy-health" required>
+			</div>
+			<div class="submit">
+				<button type="submit">Calculate Odds</button>
+			</div>
+		</form>
+		<div id="response">
+		</div>
+		<script src="index.js"></script>
+	</body>
+</html>
